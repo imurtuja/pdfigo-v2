@@ -1,0 +1,16 @@
+{
+  "name": "PDFigo by Murtuja",
+  "short_name": "PDFigo",
+  "description": "Every PDF tool you'll ever need — free, fast, and private. Built by Murtuja.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05040e",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

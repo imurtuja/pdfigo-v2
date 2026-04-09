@@ -3,7 +3,6 @@ self.addEventListener('install', () => {
 });
 
 self.addEventListener('activate', () => {
-    // Unregister itself if not needed
     self.registration.unregister()
         .then(() => self.clients.matchAll())
         .then((clients) => {
